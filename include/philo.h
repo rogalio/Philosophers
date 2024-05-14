@@ -6,7 +6,7 @@
 /*   By: rogalio <rmouchel@student.42.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/13 15:32:36 by rogalio           #+#    #+#             */
-/*   Updated: 2024/05/14 16:43:55 by rogalio          ###   ########.fr       */
+/*   Updated: 2024/05/14 17:50:59 by rogalio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ typedef struct s_monitor
     pthread_mutex_t *forks;
     pthread_mutex_t death_detector;
     pthread_mutex_t print_announcement;
+    bool is_any_dead_philo;
 
     struct s_philosopher *philosophers_array;
 
