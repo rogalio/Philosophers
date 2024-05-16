@@ -6,7 +6,7 @@
 /*   By: rogalio <rmouchel@student.42.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/13 18:30:32 by rogalio           #+#    #+#             */
-/*   Updated: 2024/05/14 16:08:22 by rogalio          ###   ########.fr       */
+/*   Updated: 2024/05/16 15:34:56 by rogalio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ bool	check_validity(int argc, char *argv[])
 	return (true);
 }
 
-bool get_params_and_parse(int ac, char **argv)
+bool	get_params_and_parse(int ac, char **argv)
 {
 	if (ac < 5 || ac > 6)
 	{
